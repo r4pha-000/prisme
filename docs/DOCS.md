@@ -1,7 +1,7 @@
 # Prisme V Documentation
 
 Before you start:
-> The interpreter is case isensitive, that is, you can write mEsSaGeBoX() and it will identify it.
+> The interpreter is case insensitive, that is, you can write mEsSaGeBoX() and it will identify it.
 
 ## Includes
 
