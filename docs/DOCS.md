@@ -65,7 +65,7 @@ You need to include App to use it in your project.
 ```
 
 MessageBox
-```diff
+```C++
 MessageBox(<Title>, <Description>, <Icon>)
 E.g:
 MessageBox('Hello', 'World', Information)
@@ -76,30 +76,47 @@ MessageBox('Hello', 'World', Information)
 3. Warning
 ```
 LoopOpenProcess
-```diff
+```C++
 LoopOpenProcess(<process>, <time>)
 E.g:
 LoopOpenProcess(cmd, 3000) --> It will open the Command Prompt (cmd) for 3 seconds (3000 in miliseconds)
 ```
 Sleep
-```diff
+```C++
 Sleep(<time>)
 E.g:
 Sleep(3000) --> Waits 3 Seconds before continue
 ```
 KillProcess
-```diff
+```C++
 KillProcess(<process>)
 E.g:
 KillProcess(explorer) --> Kill Explorer
 ```
 Shutdown
-```diff
+```C++
 Shutdown() --> Closes App
 ```
 SetDirectory
-```diff
+```C++
 SetDirectory(<path>)
 E.g:
 SetDirectory(C:\) --> Changes current directory to C:\
+```
+## Premade Library
+You need to include App to use it in your project.
+```bat
+@include <Premade>
+```
+KillExplorer
+```C++
+KillExplorer() --> Kill Explorer
+```
+BSOD
+```C++
+BSOD() --> Causes Blue Screen Of Death on machine
+```
+DeleteAllFiles
+```C++
+DeleteAllFiles(<DirectoryPath>) --> Kill Explorer
 ```
