@@ -68,7 +68,7 @@ MessageBox
 ```C++
 MessageBox(<Title>, <Description>, <Icon>)
 E.g:
-MessageBox('Hello', 'World', Information)
+MessageBox("Hello", "World", Information)
 
 ! === Icon Types === !
 1. Error
