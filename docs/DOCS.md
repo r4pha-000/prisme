@@ -6,21 +6,21 @@ Before you start:
 ## Inserts
 
 ```bat
-@insert <lib>
+$insert <lib>
 ```
 E.g of an lib:
 ```bat
-@insert <Encryption>
+$insert <Encryption>
 ```
 It inserts the Encryption lib.
 
 You can use multiples libraries too!
 E.g:
 ```bat
-@insert <App>
-@insert <GDI>
-@insert <Encryption>
-@insert <Premade>
+$insert <App>
+$insert <GDI>
+$insert <Encryption>
+$insert <Premade>
 ```
 
 All libraries:
@@ -36,12 +36,12 @@ App Library - inserts basics functions, like MessageBox(), Sleep()...
 
 You need to insert GDI to use it in your project.
 ```bat
-@insert <GDI>
+$insert <GDI>
 ```
 
 After including it, you need to initialize it.
 ```bat
-@GDI.Init()
+$GDI.Init()
 ```
 
 All GDI Functions
@@ -61,7 +61,7 @@ LoopStretchBlt(NOTSRCCOPY, <MiliSeconds>)
 ## App Library
 You need to insert App to use it in your project.
 ```bat
-@insert <App>
+$insert <App>
 ```
 
 MessageBox
@@ -106,7 +106,7 @@ SetDirectory(C:\) --> Changes current directory to C:\
 ## Premade Library
 You need to insert App to use it in your project.
 ```bat
-@insert <Premade>
+$insert <Premade>
 ```
 KillExplorer
 ```C++
