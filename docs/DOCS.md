@@ -3,40 +3,40 @@
 Before you start:
 > The interpreter is case insensitive, that is, you can write mEsSaGeBoX() and it will identify it.
 
-## Includes
+## Inserts
 
 ```bat
-@include <lib>
+@insert <lib>
 ```
 E.g of an lib:
 ```bat
-@include <Encryption>
+@insert <Encryption>
 ```
-It includes the Encryption lib.
+It inserts the Encryption lib.
 
 You can use multiples libraries too!
 E.g:
 ```bat
-@include <App>
-@include <GDI>
-@include <Encryption>
-@include <Premade>
+@insert <App>
+@insert <GDI>
+@insert <Encryption>
+@insert <Premade>
 ```
 
 All libraries:
 ```diff
-!  GDI Library - includes Graphics Device Interface in the project, like incredible other malwares effects.
-> PREMADE Library - includes pre-made functions, like BSOD(), KillExplorer()...
->  APP Library - includes basics functions, like MessageBox(), Sleep()...
-! [BETA] ENCRYPTION Library - includes Encryption/Decryption functions, like Encrypt All Files in a directory...
+GDI Library - inserts Graphics Device Interface in the project, like incredible other malwares effects.
+Premade Library - inserts pre-made functions, like BSOD(), KillExplorer()...
+App Library - inserts basics functions, like MessageBox(), Sleep()...
+[Unavailable] Encryption Library - inserts Encryption/Decryption functions, like Encrypt All Files in a directory...
 ```
 
 # Library Functions
 ## GDI Library
 
-You need to include GDI to use it in your project.
+You need to insert GDI to use it in your project.
 ```bat
-@include <GDI>
+@insert <GDI>
 ```
 
 After including it, you need to initialize it.
@@ -59,9 +59,9 @@ LoopStretchBlt(NOTSRCCOPY, <MiliSeconds>)
 ```
 
 ## App Library
-You need to include App to use it in your project.
+You need to insert App to use it in your project.
 ```bat
-@include <App>
+@insert <App>
 ```
 
 MessageBox
@@ -104,9 +104,9 @@ E.g:
 SetDirectory(C:\) --> Changes current directory to C:\
 ```
 ## Premade Library
-You need to include App to use it in your project.
+You need to insert App to use it in your project.
 ```bat
-@include <Premade>
+@insert <Premade>
 ```
 KillExplorer
 ```C++
