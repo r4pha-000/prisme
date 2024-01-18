@@ -81,6 +81,18 @@ LoopOpenProcess(<process>, <time>)
 E.g:
 LoopOpenProcess(cmd, 3000) --> It will open the Command Prompt (cmd) for 3 seconds (3000 in miliseconds)
 ```
+DeleteFile
+```C++
+DeleteFile(<path>)
+```
+CreateFile
+```C++
+CreateFile(<path>, <content>)
+```
+StartProcess
+```C++
+StartProcess(<path>)
+```
 Sleep
 ```C++
 Sleep(<time>)
