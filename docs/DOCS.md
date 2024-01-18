@@ -9,14 +9,14 @@ Before you start:
 $insert <lib>
 ```
 E.g of an lib:
-```bat
+```asm
 $insert <Encryption>
 ```
 It inserts the Encryption lib.
 
 You can use multiples libraries too!
 E.g:
-```bat
+```asm
 $insert <App>
 $insert <GDI>
 $insert <Encryption>
@@ -35,12 +35,12 @@ App Library - inserts basics functions, like MessageBox(), Sleep()...
 ## GDI Library
 
 You need to insert GDI to use it in your project.
-```bat
+```asm
 $insert <GDI>
 ```
 
 After including it, you need to initialize it.
-```bat
+```asm
 $Init()
 ```
 
@@ -60,7 +60,7 @@ LoopStretchBlt(NOTSRCCOPY, <MiliSeconds>)
 
 ## App Library
 You need to insert App to use it in your project.
-```bat
+```asm
 $insert <App>
 ```
 
