@@ -41,7 +41,7 @@ $insert <GDI>
 
 After including it, you need to initialize it.
 ```bat
-$GDI.Init()
+$Init()
 ```
 
 All GDI Functions
