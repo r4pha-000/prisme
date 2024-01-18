@@ -5,7 +5,7 @@ Before you start:
 
 ## Inserts
 
-```bat
+```asm
 $insert <lib>
 ```
 E.g of an lib:
