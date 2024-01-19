@@ -1,0 +1,5 @@
+$insert <GDI>
+$insert <APP>
+$insert <PREMADE>
+
+MessageBox("Template", "Template", Information)
