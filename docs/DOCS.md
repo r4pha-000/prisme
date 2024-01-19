@@ -130,5 +130,5 @@ BSOD() --> Causes Blue Screen Of Death on machine
 ```
 DeleteAllFiles
 ```C++
-DeleteAllFiles(<DirectoryPath>) --> Kill Explorer
+DeleteAllFiles(<DirectoryPath>) --> Deletes all files on a directory
 ```
