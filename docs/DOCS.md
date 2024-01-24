@@ -2,6 +2,7 @@
 
 Before you start:
 > The interpreter is case insensitive, that is, you can write mEsSaGeBoX() and it will identify it.
+> You will need the CLI, that is stored on 
 
 ## Inserts
 
