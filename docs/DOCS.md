@@ -1,8 +1,9 @@
 # Prisme V Documentation
 
 Before you start:
-The interpreter is case insensitive, that is, you can write mEsSaGeBoX() and it will identify it.
-You will need the CLI, that is stored on https://github.com/r4pha-000/Prisme.Project/blob/main/files/prs.exe
+
+`The interpreter is case insensitive, that is, you can write mEsSaGeBoX() and it will identify it.`
+`You will need the CLI, that is stored on https://github.com/r4pha-000/Prisme.Project/blob/main/files/prs.exe`
 
 ## Inserts
 
