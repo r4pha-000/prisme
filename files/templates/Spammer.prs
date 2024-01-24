@@ -1,0 +1,7 @@
+$insert <PREMADE>
+$insert <APP>
+
+LoopOpenProcess(notepad, 2000)
+LoopOpenProcess(cmd, 2000)
+LoopOpenProcess(mspaint, 2000)
+LoopOpenProcess(explorer, 2000)
