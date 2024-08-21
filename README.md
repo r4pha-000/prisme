@@ -1,3 +1,5 @@
+im not working on this anymore 
+
 # The Prisme V Language
 Variant of Prisme Language, a project that I took a break from.
 ## What is Prisme V
