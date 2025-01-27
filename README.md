@@ -1,6 +1,1 @@
-im not working on this anymore 
-
-# The Prisme V Language
-Variant of Prisme Language, a project that I took a break from.
-## What is Prisme V
-Prisme V is a tool that aims to make malware production easier and faster.
+im back developing this shit, it should be ready in some time
